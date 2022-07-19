@@ -1,6 +1,4 @@
 import "./style.css";
-// import marisa from "../../assets/images/imgproject/marisa.png";
-import users from "../users";
 export function ProgressBar({ props }) {
   return (
     <>

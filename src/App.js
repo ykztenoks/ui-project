@@ -1,4 +1,5 @@
 import { Progress } from "./components/progress";
+import { Footer } from "./components/footer";
 
 function App() {
   return (

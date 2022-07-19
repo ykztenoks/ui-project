@@ -2,11 +2,11 @@ export function Footer() {
   return (
     <>
       <footer
-        classname="text-center text-white"
-        style="background-color: #1A405F;"
+        className="text-center text-white"
+        style={{ backgroundColor: "#1A405F", height: "65px" }}
       >
-        <div classname="container pt-4">
-          <section classname="mb-4">
+        <div className="container">
+          <section className="d-flex justify-content-around pt-3">
             <a id="home">
               <svg
                 width="26"
@@ -18,9 +18,9 @@ export function Footer() {
                 <path
                   d="M9 19V29H1V11L13 1L25 11V29H17V19H9Z"
                   stroke="#FCFCFA"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </a>
@@ -42,7 +42,7 @@ export function Footer() {
                 />
               </svg>
             </a>
-            <a classname="profile">
+            <a className="profile">
               <svg
                 width="32"
                 height="32"
@@ -53,16 +53,16 @@ export function Footer() {
                 <path
                   d="M16 2.66667C8.636 2.66667 2.66666 8.636 2.66666 16C2.66666 23.364 8.636 29.3333 16 29.3333C23.364 29.3333 29.3333 23.364 29.3333 16C29.3333 8.636 23.364 2.66667 16 2.66667Z"
                   stroke="#FCFCFA"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M5.69466 24.4613C5.69466 24.4613 8.66666 20.6667 16 20.6667C23.3333 20.6667 26.3067 24.4613 26.3067 24.4613M16 16C17.0609 16 18.0783 15.5786 18.8284 14.8284C19.5786 14.0783 20 13.0609 20 12C20 10.9391 19.5786 9.92172 18.8284 9.17157C18.0783 8.42143 17.0609 8 16 8C14.9391 8 13.9217 8.42143 13.1716 9.17157C12.4214 9.92172 12 10.9391 12 12C12 13.0609 12.4214 14.0783 13.1716 14.8284C13.9217 15.5786 14.9391 16 16 16V16Z"
                   stroke="#FCFCFA"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </a>

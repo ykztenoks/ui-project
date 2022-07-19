@@ -1,11 +1,8 @@
-import "./App.css";
-
+import { NavBar } from "./components/navbar/index";
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
-      <h2>eai mundao</h2>
-      <h3>salve</h3>
+      <NavBar />
     </div>
   );
 }

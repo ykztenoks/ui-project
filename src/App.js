@@ -4,6 +4,7 @@ import { ProxVacinas } from './components/proxVacinas';
 
 import { NavBar } from "./components/navbar/index";
 import { Progress } from "./components/progress";
+import { Footer } from "./components/footer";
 
 function App() {
   return (

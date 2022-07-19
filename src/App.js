@@ -1,8 +1,11 @@
-import { CardsImg } from "./components/cards";
+import { Progress } from "./components/progress";
+
 function App() {
   return (
     <div className="App">
-      <CardsImg />
+      <h1>Hello world</h1>
+      <h2>eai mundao</h2>
+      <Progress />
     </div>
   );
 }

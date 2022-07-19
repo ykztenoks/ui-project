@@ -1,10 +1,8 @@
-import "./App.css";
-
+import { CardsImg } from "./components/cards";
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
-      <h2>eai mundao</h2>
+      <CardsImg />
     </div>
   );
 }

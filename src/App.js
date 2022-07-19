@@ -1,3 +1,7 @@
+
+import { ProxVacinas } from './components/proxVacinas';
+
+
 import { NavBar } from "./components/navbar/index";
 import { Progress } from "./components/progress";
 
@@ -10,6 +14,7 @@ function App() {
 
     </div>
   );
+
 }
 
 export default App;

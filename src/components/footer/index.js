@@ -1,4 +1,17 @@
+import toast from "react-hot-toast";
+
 export function Footer() {
+  function homeClick() {
+    toast.success("aqui é o botão da home");
+  }
+
+  function walletClick() {
+    toast.success("carteira aqui");
+  }
+
+  function profileClick() {
+    toast.success("aqui vai ser o profile");
+  }
   return (
     <>
       <footer
@@ -7,13 +20,14 @@ export function Footer() {
       >
         <div className="container">
           <section className="d-flex justify-content-around pt-3">
-            <a id="home">
+            <p id="home">
               <svg
                 width="26"
                 height="30"
                 viewBox="0 0 26 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                onClick={homeClick}
               >
                 <path
                   d="M9 19V29H1V11L13 1L25 11V29H17V19H9Z"
@@ -23,14 +37,15 @@ export function Footer() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </a>
-            <a id="carteira">
+            </p>
+            <p id="carteira">
               <svg
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                onClick={walletClick}
               >
                 <path
                   d="M8.88889 4.62222H24.8889V6H8.88889V4.62222Z"
@@ -41,14 +56,15 @@ export function Footer() {
                   fill="#FCFCFA"
                 />
               </svg>
-            </a>
-            <a className="profile">
+            </p>
+            <p className="profile">
               <svg
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                onClick={profileClick}
               >
                 <path
                   d="M16 2.66667C8.636 2.66667 2.66666 8.636 2.66666 16C2.66666 23.364 8.636 29.3333 16 29.3333C23.364 29.3333 29.3333 23.364 29.3333 16C29.3333 8.636 23.364 2.66667 16 2.66667Z"
@@ -65,7 +81,7 @@ export function Footer() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </a>
+            </p>
           </section>
         </div>
       </footer>

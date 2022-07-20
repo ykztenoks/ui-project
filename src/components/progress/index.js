@@ -7,11 +7,15 @@ export function Progress() {
     <>
       <div id="mainProgress">
         <div id="titleProgress">
-          <h1>Olá Marisa,</h1>
+          <h1>Olá {users[0].name},</h1>
           <p id="progressoAtual">Progresso Atual</p>
         </div>
         {users.map((currentUser) => {
-          return <ProgressBar key={currentUser.id} props={currentUser} />;
+          return (
+            <div id="cardProgress">
+              <ProgressBar key={currentUser.id} props={currentUser} />
+            </div>
+          );
         })}
       </div>
     </>

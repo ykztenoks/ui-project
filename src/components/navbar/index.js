@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 export function NavBar() {
   return (
     <div className={styles.navbar}>
-      <h1>Nêta</h1>
+      <h1 className={styles.header}>Nêta</h1>
 
       <svg
         width="32"

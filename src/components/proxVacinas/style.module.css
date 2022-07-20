@@ -1,65 +1,67 @@
-h2 {
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 25px;
-	margin-left: 24px;
-}
+@media screen and (max-width: 360px) {
+  h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 24px;
+  }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.card {
-	width: 312px;
-	height: 63px;
-	padding: 13px, 16px, 13px, 16px;
-	border-radius: 30px;
-	background-color: #96beda;
-	display: flex;
-	justify-content: center;
-	margin: 10px;
-}
+  .card {
+    width: 312px;
+    height: 63px;
+    padding: 13px, 16px, 13px, 16px;
+    border-radius: 30px;
+    background-color: #96beda;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
 
-.insideCard {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	padding: 0px;
-	gap: 6px;
-}
+  .insideCard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    gap: 6px;
+  }
 
-.user {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 4px;
-	border-radius: 16px;
-}
+  .user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 16px;
+  }
 
-.name {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 15px;
-}
+  .name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
 
-.vacine {
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 20px;
-}
+  .vacine {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
 
-.date {
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 15px;
-}
+  .date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
 
-.img {
-	width: 32px;
-	height: 32px;
+  .img {
+    width: 32px;
+    height: 32px;
+  }
 }

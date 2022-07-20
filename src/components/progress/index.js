@@ -6,7 +6,7 @@ export function Progress() {
   return (
     <>
       <div id="mainProgress">
-        <h1>Olá Marisa,</h1>
+        <h1>Olá {users[0].name},</h1>
         <div id="titleProgress">
           <p id="progressoAtual">Progresso Atual</p>
         </div>

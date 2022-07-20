@@ -16,4 +16,4 @@ Eliel Calore
 Paulo Sinkawa
 Lucas Colombo
 
-![projectscreen](https://github.com/ykztenoks/ui-project/tree/main/src/assets/images/imgproject/uiprojecttroco.png)
+![projectscreen](https://github.com/ykztenoks/ui-project/tree/main/src/assets/images/imgproject/uiprojecttroco.PNG)

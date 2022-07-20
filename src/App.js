@@ -1,21 +1,18 @@
-
 import { ProxVacinas } from './components/proxVacinas';
 
-
-import { NavBar } from "./components/navbar/index";
-import { Progress } from "./components/progress";
-import { Footer } from "./components/footer";
+import { NavBar } from './components/navbar/index';
+import { Progress } from './components/progress';
+import { Footer } from './components/footer';
+import { CardsImg } from './components/cards';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello world</h1>
-      <h2>eai mundao</h2>
-      <Progress />
-
-    </div>
-  );
-
+	return (
+		<div className="App">
+			<Progress />
+			<ProxVacinas />
+			<CardsImg />
+		</div>
+	);
 }
 
 export default App;

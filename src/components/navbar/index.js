@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 export function NavBar() {
   return (
     <div className={styles.navbar}>
-      <h1>Nêta</h1>
+      <h1 className={styles.header}>Nêta</h1>
 
       <svg
         width="32"
@@ -11,6 +11,7 @@ export function NavBar() {
         viewBox="0 0 32 32"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className={styles.svg}
       >
         <path
           fill-rule="evenodd"

@@ -7,13 +7,15 @@ Their project consists of a vaccination agenda that a user can manage it's famil
 This project was developed by a group of people from 75th Ironhack's Web Development Bootcamp.
 Contributors:
 
-Daniel Skonetzky
-Anderson Faé
-Tathyanna Maximiano
-Angelo Martins
-Bruno Fonoff
-Eliel Calore
-Paulo Sinkawa
-Lucas Colombo
+[Daniel Skonetzky](https://github.com/ykztenoks)
+[Anderson Faé](https://www.linkedin.com/in/andersonfae/)
+[Tathyanna Maximiano](https://github.com/Tathy-Max)
+[Angelo Martins](https://github.com/avpm90)
+[Bruno Fonoff](https://github.com/bruno-fonoff)
+[Eliel Calore](https://github.com/ElielCalore)
+[Paulo Sinkawa](https://github.com/paulo-sinkawa)
+[Lucas Colombo](https://www.linkedin.com/in/lucas-alba-colombo/)
 
-![projectscreen](https://github.com/ykztenoks/ui-project/tree/main/src/assets/images/imgproject/uiprojecttroco.PNG)
+[Deploy Link](https://uireplica.netlify.app/) (You should use responsive screensize 360x800)
+
+![projectscreen](https://github.com/ykztenoks/ui-project/blob/main/src/assets/images/imgproject/uiprojecttroco.PNG)

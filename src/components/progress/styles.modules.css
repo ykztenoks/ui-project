@@ -3,6 +3,7 @@
     display: flex;
     margin: 16px;
     flex-direction: column;
+    margin-top: 96px;
   }
   #progressoAtual {
     font-size: 20px;

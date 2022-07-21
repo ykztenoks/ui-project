@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: inherit;
   }
   #percentBar {
     width: 90%;
@@ -23,12 +23,11 @@
   #percentText {
     font-size: 11px;
     right: 4px;
-    position: relative;
   }
   #name {
     font-weight: bold;
-    position: relative;
+
     margin: 0px 5px;
-    top: 5px;
+    padding-top: 14px;
   }
 }
